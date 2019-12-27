@@ -31,6 +31,10 @@
     "vim.autoSwitchInputMethod.defaultIM": "xkb:us::eng",
     "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/ibus engine",
     "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/ibus engine {im}",
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "1033",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "D:\\bin\\im-select.exe",
+    "vim.autoSwitchInputMethod.switchIMCmd": "D:\\bin\\im-select.exe {im}",
     "vim.statusBarColorControl": true,
     "vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
     "vim.statusBarColors.insert": "#BF616A",
@@ -50,5 +54,6 @@
       "statusBar.foreground": "#434C5E"
     },
     "vim.camelCaseMotion.enable":true,
-    "vim.foldfix":true
+    "vim.foldfix":true,
+    "html.mirrorCursorOnMatchingTag": false
 }
